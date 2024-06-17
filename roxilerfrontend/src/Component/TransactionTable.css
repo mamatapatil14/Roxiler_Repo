@@ -1,0 +1,73 @@
+
+
+.Maindiv{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn1{
+    margin-left: 33%;
+           padding: 10px 20px;
+            background-color: #f6db62; /* Green background */
+            color: rgb(18, 0, 0); /* White text */
+            border: none; /* Remove border */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 20px; /* Rounded corners */
+            outline: none; /* Remove outline */
+            font-size: 16px; /* Font size */
+            text-align: center; /* Center text */
+            display: inline-block;
+    
+}
+.btn2{
+    margin-left: 5%;
+    padding: 10px 20px;
+    background-color: #f6db62; /* Green background */
+    color: rgb(4, 0, 0); /* White text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    font-size: 16px; /* Font size */
+    text-align: center; 
+    display: inline-block; /* Inline block */
+    -webkit-appearance: none; /* Remove default dropdown arrow in Webkit browsers */
+    -moz-appearance: none; /* Remove default dropdown arrow in Firefox */
+    appearance: none; /* Remove default dropdown arrow */
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="white" d="M2 0L0 2h4L2 0zM2 5L0 3h4L2 5z"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+.maintable{
+    margin-top: 1rem;
+    background-color: #f6db62;
+}
+.pre{
+    margin-left: 45%;
+}
+.perpage{
+    margin-left:32%;
+}
+.disabled {
+    color: gray;
+    pointer-events: none;
+  }
+  .stattotal{
+    display: inline-block;
+    background-color:rgb(249, 229, 95) ;
+    border-radius: 10%;
+    
+  }
+  .stattotal h4{
+    background-color:rgb(249, 229, 95) ;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .statistics h3{
+    margin-left: 1px;
+  }
+  .barchart{
+    margin-top: -17%;
+    margin-left: 50%;
+   
+  }
